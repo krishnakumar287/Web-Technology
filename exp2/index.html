@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #nav {
+            position: fixed;
+            width: fit-content;
+            height: 100%;
+            background-color: #9bafc1;
+            padding: 20px;
+            box-shadow: 2px 0px 5px rgba(8, 8, 8, 0.5);
+        }
+        #nav a {
+            color: #333;
+            display: block;
+            text-decoration: none;
+            margin-bottom: 10px;
+            
+        }
+
+        #nav a:hover {
+            color: black;
+            text-decoration: underline;
+            font-size: 30px;
+            
+        }
+
+        #content {
+            margin-left: 230px;
+            padding: 20px;
+        }
+
+        #content div {
+            display: none;
+
+        }
+
+        #content div:target {
+            display: block;
+        }
+    
+    </style>
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <div class="container"><img src="22ITR051 (1).jpg" alt="krishnakumar"></div>
+        <a href="#section1" style="font-size: 25px;">About Me</a>
+        <a href="#section2" style="font-size: 25px;">Education</a>
+        <a href="#section3" style="font-size: 25px;">Area Of Interest</a>
+        <a href="#section4" style="font-size: 25px;">Paper & Project</a>
+        <a href="#section5" style="font-size: 25px;">Industrial Collaboration</a>
+        <a href="#section6" style="font-size: 25px;">Membership</a>
+
+    </div>
+    <div id="content">
+        <div id="section1">
+            <h2 style="color: black; font-family: Montserrat;">About Me:</h2>
+            <p><b style="font-family: Times New Roman;">Name:</b> Krishnakumar S</p>
+            <p><b style="font-family: Times New Roman;">Role:</b> Student</p>
+            <p><b style="font-family: Times New Roman;">College:</b> Kongu Engineering College</p>
+            <p><b style="font-family: Times New Roman;">Department :</b> Information technology</p>
+            <a href="mailto:krishnakumars.22it@kongu" style="text-decoration: none;">Krishnakumars.22it@kongu.edu</a>
+        </div>
+        <div id="section2">
+            <h2 style="color: black; font-family: Montserrat;">Educational Qualifications:</h2>
+            <table  border="1" cellspacing="4" cellpadding="5" align="center">
+                <tr>
+                    <th>NAME OF THE DEGREE</th>
+                    <th>NAME OF INSTITUTION</th>
+                    <th>YEAR OF PASSING</th>
+                    <th>PERCENTAGE/CGPA</th>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>KONGU ENGINEERING COLLEGE</td>
+                    <td>2026</td>
+                    <td>7.6</td>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>VEVEAHAMI.MATRIC.HR.SEC.SCHOOL</td>
+                    <td>2020</td>
+                    <td>87%</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>VEVEAHAMI.MATRIC.HR.SEC.SCHOOL</td>
+                    <td>2022</td>
+                    <td>85%</td>
+                </tr>
+            </table>
+        </div>
+        <div id="section3">
+            <h2 style="color: black; font-family: Montserrat;">Area Of Interest:</h2>
+            <ul>
+            <p><b style="font-family: Times New Roman;">Domain:</b>Full Stack Development</p>
+            <p><b style="font-family: Times New Roman;">Programming Languages:</b></p>
+
+            </ul>
+            <p>
+                <ol>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                </ol>
+            </p>
+        
+        </div>
+        <div id="section4">
+            <h2 style="color: black; font-family: Montserrat;">Paper Presentations:</h2>
+            <p><b style="font-family: Times New Roman;">Brain Computer Interface:</b> Kongu Engineering College, Perundurai.</p>
+            <p><b style="font-family: Times New Roman;">Polar Technology:</b> Kongu Engineering College, Perundurai.</p>
+            <p><b style="font-family: Times New Roman;">Prompt Engineering:</b>Coimbatore Institute of Technology,Coimbatore.</p>
+        </div>
+        <div id="section5">
+                <h2 style="color: black; font-family: Montserrat;">Industrial collaboration:</h2>
+                <ul>
+                <li style="font-size: 25px;">In-plant training in collaboration with Radix Software and completed Web Technology</li>
+                <li style="font-size: 25px;">In-plant training in collaboration with Radix Software and completed UI and UX</li>
+                <li style="font-size: 25px;" >Attended Industrial Visit at Atees solutions</li>
+            </ul>
+        </div>
+        <div id="section6">
+            <h2 style="color: black; font-family: Montserrat;">Membership:</h2>
+            <ul>
+                <li style="font-size: 25px;">Member in MIDC club</li>
+                <li style="font-size: 25px;">Member in IST</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
